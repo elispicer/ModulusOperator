@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         testOddness();
+        keepContained();
 
     }
 
@@ -24,6 +25,32 @@ System.out.println(number + " is odd: " +(number % 2 !=0 ));
 
 
 
-    }
 
-}
+
+
+
+
+
+
+
+
+
+
+    }
+    public static void keepContained() {
+    int number;
+    Scanner keepContained;
+    keepContained = new Scanner(System.in);
+
+System.out.println("Give me a positive number");
+number = keepContained.nextInt();
+
+System.out.println(" number contained is ");
+System.out.println((number%8)+5);
+
+
+
+
+
+    }
+    }
