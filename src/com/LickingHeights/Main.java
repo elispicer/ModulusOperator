@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         testOddness();
         keepContained();
-
+        lastDigit();
     }
 
     public static void testOddness() {
@@ -19,21 +19,6 @@ public class Main {
 int number = testOddness.nextInt();
 
 System.out.println(number + " is odd: " +(number % 2 !=0 ));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
@@ -53,4 +38,23 @@ System.out.println((number%8)+5);
 
 
     }
+    public static void lastDigit() {
+        int number;
+        Scanner lastDigit;
+        lastDigit = new Scanner(System.in);
+
+        System.out.println("Give me a positive number that is only 4 digits long");
+        number = lastDigit.nextInt();
+
+        System.out.println("The last number digit is: " +(number%10));
+
+
+
+
+
+
+
+
+    }
+
     }
